@@ -29,7 +29,7 @@ languages:
         title: "Ramin Asgharian."
         subtitle: "Senior Cloud & IT Systems Engineer"
         content: "Senior Cloud Engineer with 10+ years of experience in Enterprise Infrastructure, Automation (Terraform, Python), VMware, Nutanix, and Cloud Architectures."
-        image: /images/hero.svg
+        image: /images/hero.jpg
         button:
           enable: true
           name: "Resume"
