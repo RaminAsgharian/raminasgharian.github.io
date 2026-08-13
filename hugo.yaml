@@ -97,6 +97,8 @@ languages:
           weight: 1
     params:
       hero:
+        enable: true
+        image: /images/hero.svg
         intro: "سلام، من"
         title: "رامین اصغریان هستم."
         subtitle: "مهندس ارشد کلاود و زیرساخت IT"
