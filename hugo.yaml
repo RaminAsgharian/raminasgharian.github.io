@@ -93,7 +93,7 @@ languages:
         - identifier: blog
           name: وبلاگ
           title: مقالات و یادداشت‌ها
-          url: /fa/blogs
+          url: /blogs
           weight: 1
     params:
       hero:
