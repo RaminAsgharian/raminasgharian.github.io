@@ -1,0 +1,21 @@
+baseURL: 'https://raminasgharian.com/'
+languageCode: 'en-us'
+title: 'Ramin Asgharian | Senior Cloud Engineer'
+theme: 'hugo-profile'
+
+params:
+  title: "Ramin Asgharian"
+  subtitle: "Senior Cloud & IT Systems Engineer"
+  description: "Senior Cloud Engineer with 10+ years of IT experience, specializing in IaC, Automation, VMware, Nutanix, and Cloud Architectures."
+  
+  # عکس پرسنلی (بعداً عکس خودت را با نام avatar.jpg در فولدر static/images می‌گذاری)
+  avatar: "images/avatar.jpg"
+
+  # دکمه‌های شبکه اجتماعی
+  social:
+    - name: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/your-profile" # لینک لینکدین خودت
+    - name: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/RaminAsgharian"   # یوزرنیم گیت‌هاب خودت
