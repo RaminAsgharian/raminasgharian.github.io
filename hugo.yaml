@@ -1,4 +1,4 @@
-baseURL: "https://raminasgharian.com"
+baseURL: "https://ramin-asgharian.com"
 languageCode: "en-us"
 title: "Ramin Asgharian | Senior Cloud Engineer"
 theme: hugo-profile
@@ -79,7 +79,7 @@ languages:
         enable: true
         content: "My inbox is always open. Feel free to reach out for consultations, networking, or tech discussions!"
         btnName: "Mail Me"
-        btnLink: "mailto:info@raminasgharian.com"
+        btnLink: "mailto:ramin.asgharian@hotmail.com"
 
   # --------------------------------------------------
   # ۲. نسخه فارسی (فارسی)
@@ -143,13 +143,13 @@ languages:
       contact:
         content: "خوشحال می‌شوم با هم در ارتباط باشیم. برای مشاوره، همکاری یا گفتگو در حوزه تکنولوژی می‌توانید مستقیم به من ایمیل بزنید."
         btnName: "ارسال ایمیل"
-        btnLink: "mailto:info@raminasgharian.com"
+        btnLink: "mailto:ramin.asgharian@hotmail.com"
 
 # تنظیمات کلی هدر و برند
 params:
   title: "Ramin Asgharian"
   description: "Senior Cloud Engineer Portfolio"
-  favicon: "/fav.png"
+  #favicon: "/fav.png"
   navbar:
     brandName: "Ramin Asgharian"
     disableSearch: false
@@ -159,5 +159,5 @@ params:
 
   footer:
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
+      github: https://github.com/RaminAsgharian
+      linkedin: www.linkedin.com/in/ramin-asgharian-47149523
