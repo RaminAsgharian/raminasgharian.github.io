@@ -1,9 +1,8 @@
 baseURL: "https://ramin-asgharian.com"
 languageCode: "en-us"
-title: "Ramin Asgharian | Senior Cloud Engineer"
+title: "Ramin Asgharian | Cloud & Infrastructure Engineer"
 theme: hugo-profile
 
-# تنظیمات اصلی زبان‌ها (فقط انگلیسی و فارسی)
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
 
@@ -15,70 +14,65 @@ languages:
     languageName: "English"
     weight: 1
     contentDir: "content"
-    menu:
-      main:
-        - identifier: blog
-          name: Blog
-          title: Blog posts
-          url: /blogs
-          weight: 1
     params:
       hero:
         enable: true
-        intro: "Hi, my name is"
+        intro: "Hi, I am"
         title: "Ramin Asgharian."
-        subtitle: "Senior Cloud & IT Systems Engineer"
-        content: "Senior Cloud Engineer with 10+ years of experience in Enterprise Infrastructure, Automation (Terraform, Python), VMware, Nutanix, and Cloud Architectures."
-        image: /images/hero.jpg
+        subtitle: "Cloud & Infrastructure Engineer"
+        content: "I focus on Cloud Platforms (AWS, Azure), Virtualization, Infrastructure Automation (Terraform, Ansible, Python), and Enterprise Backup Solutions."
+        image: /images/hero.svg
         button:
           enable: true
-          name: "Resume"
-          url: "#"
-          download: true
+          name: "Download Resume"
+          url: "#" # لینک فایل PDF رزومه‌ات را بعداً اینجا می‌گذاری
 
       about:
         enable: true
         title: "About Me"
         content: |-
-          I am a Senior Cloud & IT Systems Engineer based in Germany with over a decade of hands-on experience in enterprise IT infrastructure, virtualization, and network engineering. 
+          I design, build, and automate IT infrastructure with a strong foundation in enterprise systems and networking. My focus centers on Cloud Platforms (AWS & Azure), Virtualization, and Infrastructure as Code (IaC).
 
-          Currently specializing in **Cloud Infrastructure**, **Infrastructure as Code (Terraform)**, **Python Automation**, and **Hybrid Cloud Solutions**.
+          Alongside hands-on engineering, I spent several years as a Technical Instructor teaching Microsoft, Cisco, and advanced networking courses—an experience that deepened my understanding of core systems and system architecture.
         skills:
           enable: true
-          title: "Core Technologies:"
+          title: "Core Technologies & Expertise:"
           items:
-            - "Terraform & IaC"
-            - "Python"
-            - "VMware vSphere"
-            - "Nutanix HCI"
-            - "Pure Storage & Veeam"
-            - "Cisco & Microsoft Infra"
+            - "Cloud (AWS, Azure)"
+            - "Terraform & Ansible"
+            - "Python Automation"
+            - "Virtualization (VMware, Nutanix)"
+            - "Backup & Disaster Recovery (Veeam)"
+            - "Enterprise Networking (Cisco, Microsoft)"
+            - "SAN & Data Center Infrastructure"
 
+      # بخش سوابق کاری به درخواست شما غیرفعال شد
       experience:
-        enable: true
-        items:
-          - company: "Cloud & Enterprise IT"
-            companyUrl: "https://raminasgharian.com"
-            jobs:
-              - name: "Senior Cloud Engineer"
-                date: "2025 - Present"
-                content: "Driving cloud automation initiatives using Terraform and Python. Managing enterprise VMware and Nutanix HCI environments."
-              - name: "IT Systems Administrator"
-                date: "2013 - 2025"
-                content: "Managed complex enterprise network and server infrastructures across Germany and Iran."
+        enable: false
 
       education:
         enable: true
+        title: "Education"
         items:
-          - title: "Master of Science in Computer Networks"
+          - title: "Master of Technology (M.Tech) in Computer Networks & Information Security"
             school:
-              name: "University in India"
-            date: "Graduated"
+              name: "Jawaharlal Nehru Technological University Hyderabad (JNTUH)"
+
+      achievements:
+        enable: true
+        title: "Research & Publications"
+        items:
+          - title: "A Challenge-based Social Network: The LEGIO Mobile Application"
+            content: "International Journal of Computer Science and Network (IJCSN) — 2017"
+          - title: "Do you share positive and negative life events on Facebook? Sharing and Privacy Concerns"
+            content: "Union of Iranian Knowledge & Information Science Student Association — 2015"
+          - title: "Secured Cryptography by Combination of One Time Pad Encryption & Cipher Block Chaining Mode"
+            content: "Khayam University — 2012"
 
       contact:
         enable: true
-        content: "My inbox is always open. Feel free to reach out for consultations, networking, or tech discussions!"
-        btnName: "Mail Me"
+        content: "Always open to technical discussions, consultations, or exchanging ideas about Cloud and Infrastructure automation."
+        btnName: "Get in Touch"
         btnLink: "mailto:ramin.asgharian@hotmail.com"
 
   # --------------------------------------------------
@@ -88,76 +82,80 @@ languages:
     languageName: "فارسی"
     weight: 2
     contentDir: "content/fa"
-    menu:
-      main:
-        - identifier: blog
-          name: وبلاگ
-          title: مقالات و یادداشت‌ها
-          url: /blogs
-          weight: 1
     params:
       hero:
         enable: true
-        image: /images/hero.svg
         intro: "سلام، من"
         title: "رامین اصغریان هستم."
-        subtitle: "مهندس ارشد کلاود و زیرساخت IT"
-        content: "متخصص ارشد زیرساخت‌های ابری با بیش از ۱۰ سال سابقه کار در زمینه اتوماسیون (Terraform, Python)، مجازی‌سازی (VMware, Nutanix) و شبکه‌های سازمانی در آلمان و ایران."
+        subtitle: "مهندس کلاود و زیرساخت IT"
+        content: "تمرکز من روی پلتفرم‌های ابری (AWS, Azure)، مجازی‌سازی، اتوماسیون زیرساخت (Terraform, Ansible, Python) و راهکارهای Backup و Disaster Recovery است."
+        image: /images/hero.svg
         button:
+          enable: true
           name: "دانلود رزومه"
+          url: "#"
+
       about:
+        enable: true
         title: "درباره من"
         content: |-
-          من مهندس ارشد کلاود و زیرساخت‌های IT مقیم آلمان هستم. با بیش از یک دهه تجربه عملی در مدیریت شبکه‌های پیچیده سازمانی، مجازی‌سازی و ذخیره‌سازی داده.
+          من زیرساخت‌های IT را با تکیه بر مفاهیم پایه و عمیق شبکه و سرور طراحی و اتوماسیون می‌کنم. تمرکز اصلی من روی پلتفرم‌های ابری (AWS و Azure)، مجازی‌سازی و زیرساخت مبتنی بر کد (IaC) است.
 
-          تمرکز اصلی من در حال حاضر روی **زیرساخت‌های ابری**، **اتوماسیون با Terraform و Python** و **زیرساخت مبتنی بر کد (IaC)** است.
+          در کنار کارهای اجرایی، سال‌ها به عنوان مدرس دوره‌های تخصصی شبکه (مایکروسافت و سیسکو) و مدرس دانشگاه فعالیت داشته‌ام؛ تجربه‌ای که دید عمیقی در تحلیل سیستم‌های بزرگ به من داده است.
         skills:
-          title: "تکنولوژی‌های اصلی:"
+          enable: true
+          title: "تخصص‌های اصلی:"
           items:
-            - "Terraform & IaC"
-            - "Python Automation"
-            - "VMware vSphere"
-            - "Nutanix HCI"
-            - "Pure Storage & Veeam"
-            - "Cisco & Microsoft Networking"
+            - "پلتفرم‌های ابری (AWS, Azure)"
+            - "Terraform & Ansible"
+            - "اتوماسیون با Python"
+            - "مجازی‌سازی (VMware, Nutanix)"
+            - "سیستم‌های پشتیبان‌گیری (Veeam Backup)"
+            - "شبکه‌های سازمانی (Cisco, Microsoft)"
+            - "زیرساخت دیتاسنتر و ذخیره‌سازی (SAN)"
 
+      # بخش سوابق کاری به درخواست شما غیرفعال شد
       experience:
-        items:
-          - company: "شرکت‌های زیرساخت و کلاود"
-            companyUrl: "https://raminasgharian.com"
-            jobs:
-              - name: "مهندس ارشد کلاود (Cloud Engineer)"
-                date: "۲۰۲۵ - تا کنون"
-                content: "مدیریت اتوماسیون زیرساخت با استفاده از Terraform و Python، بهینه‌سازی سیستم‌های VMware و Nutanix."
-              - name: "مدیر ارشد سیستم‌ها و شبکه"
-                date: "۲۰۱۳ - ۲۰۲۵"
-                content: "راه اندازی و مدیریت شبکه‌های سازمانی و سرورها در آلمان و ایران."
+        enable: false
 
       education:
+        enable: true
+        title: "تحصیلات"
         items:
-          - title: "کارشناسی ارشد مهندسی شبکه"
+          - title: "کارشناسی ارشد مهندسی (M.Tech) شبکه و امنیت اطلاعات"
             school:
-              name: "دانشگاه هند"
-            date: "فارغ التحصیل"
+              name: "دانشگاه تکنولوژی جواهر لعل نهرو حیدرآباد (JNTUH)"
+
+      achievements:
+        enable: true
+        title: "مقالات و پژوهش‌های علمی"
+        items:
+          - title: "A Challenge-based Social Network: The LEGIO Mobile Application"
+            content: "نشریه بین‌المللی علوم و شبکه کامپیوتر (IJCSN) — ۲۰۱۷"
+          - title: "Do you share positive and negative life events on Facebook? Sharing and Privacy Concerns"
+            content: "اتحادیه انجمن‌های علمی دانش‌شناسی ایران — ۲۰۱۵"
+          - title: "Secured Cryptography by Combination of One Time Pad Encryption & Cipher Block Chaining Mode"
+            content: "دانشگاه خیام — ۲۰۱۲"
 
       contact:
-        content: "خوشحال می‌شوم با هم در ارتباط باشیم. برای مشاوره، همکاری یا گفتگو در حوزه تکنولوژی می‌توانید مستقیم به من ایمیل بزنید."
+        enable: true
+        content: "خوشحال می‌شوم با هم در ارتباط باشیم و درباره تکنولوژی‌های کلاود و اتوماسیون گفتگو کنیم."
         btnName: "ارسال ایمیل"
         btnLink: "mailto:ramin.asgharian@hotmail.com"
 
-# تنظیمات کلی هدر و برند
+# تنظیمات عمومی هدر و منو
 params:
   title: "Ramin Asgharian"
-  description: "Senior Cloud Engineer Portfolio"
-  #favicon: "/fav.png"
+  description: "Cloud & Infrastructure Engineer Portfolio"
+  favicon: "/fav.png"
   navbar:
     brandName: "Ramin Asgharian"
-    disableSearch: false
     showBrandLogo: false
+    disableSearch: false
     stickyNavBar:
       enable: true
 
   footer:
     socialNetworks:
-      github: https://github.com/RaminAsgharian
-      linkedin: www.linkedin.com/in/ramin-asgharian-47149523
+      github: https://github.com
+      linkedin: https://www.linkedin.com/in/ramin-asgharian-47149523
