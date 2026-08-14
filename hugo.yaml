@@ -153,6 +153,7 @@ params:
   navbar:
     brandName: "Ramin Asgharian"
     disableSearch: false
+    showBrandLogo: false
     stickyNavBar:
       enable: true
 
