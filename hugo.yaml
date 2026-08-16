@@ -24,6 +24,7 @@ params:
     title: "Ramin Asgharian."
     subtitle: "Cloud & Infrastructure Engineer"
     content: "I focus on Cloud Platforms (AWS, Azure), Virtualization, Infrastructure Automation (Terraform, Ansible, Python), and Enterprise Backup Solutions."
+    image: "/images/hero.jpg"
     button:
       enable: true
       name: "Download Resume"
