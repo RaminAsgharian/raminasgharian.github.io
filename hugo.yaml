@@ -3,107 +3,122 @@ languageCode: "en-us"
 title: "Ramin Asgharian | Cloud & Infrastructure Engineer"
 theme: hugo-profile
 
+# --------------------------------------------------
+# تنظیمات اصلی صفحه به زبان انگلیسی (Default)
+# --------------------------------------------------
+params:
+  title: "Ramin Asgharian"
+  description: "Cloud & Infrastructure Engineer Portfolio"
+  favicon: "/fav.png"
+
+  navbar:
+    brandName: "Ramin Asgharian"
+    showBrandLogo: false
+    disableSearch: false
+    stickyNavBar:
+      enable: true
+
+  # 1. بخش معرفی اصلی (Hero)
+  hero:
+    enable: true
+    intro: "Hi, I am"
+    title: "Ramin Asgharian."
+    subtitle: "Cloud & Infrastructure Engineer"
+    content: "I focus on Cloud Platforms (AWS, Azure), Virtualization, Infrastructure Automation (Terraform, Ansible, Python), and Enterprise Backup Solutions."
+    image: /images/hero.svg
+    button:
+      enable: true
+      name: "Download Resume"
+      url: "#"
+
+  # 2. بخش درباره من
+  about:
+    enable: true
+    title: "About Me"
+    content: |-
+      I design, build, and automate IT infrastructure with a strong foundation in enterprise systems and networking. My focus centers on Cloud Platforms (AWS & Azure), Virtualization, and Infrastructure as Code (IaC).
+
+      Alongside hands-on engineering, I spent several years as a Technical Instructor teaching Microsoft, Cisco, and advanced networking courses—an experience that deepened my understanding of core systems and system architecture.
+    skills:
+      enable: true
+      title: "Core Technologies & Expertise:"
+      items:
+        - "Cloud (AWS, Azure)"
+        - "Terraform & Ansible"
+        - "Python Automation"
+        - "Virtualization (VMware, Nutanix)"
+        - "Backup & Disaster Recovery (Veeam)"
+        - "Enterprise Networking (Cisco, Microsoft)"
+        - "SAN & Data Center Infrastructure"
+
+  # 3. سوابق کاری (غیرفعال شده طبق درخواست شما)
+  experience:
+    enable: false
+
+  # 4. تحصیلات
+  education:
+    enable: true
+    title: "Education"
+    items:
+      - title: "Master of Technology (M.Tech) in Computer Networks & Information Security"
+        school:
+          name: "Jawaharlal Nehru Technological University Hyderabad (JNTUH)"
+
+  # 5. پژوهش‌ها و مقالات علمی
+  achievements:
+    enable: true
+    title: "Research & Publications"
+    items:
+      - title: "A Challenge-based Social Network: The LEGIO Mobile Application"
+        content: "International Journal of Computer Science and Network (IJCSN) — 2017"
+      - title: "Do you share positive and negative life events on Facebook? Sharing and Privacy Concerns"
+        content: "Union of Iranian Knowledge & Information Science Student Association — 2015"
+      - title: "Secured Cryptography by Combination of One Time Pad Encryption & Cipher Block Chaining Mode"
+        content: "Khayam University — 2012"
+
+  # 6. ارتباط
+  contact:
+    enable: true
+    content: "Always open to technical discussions, consultations, or exchanging ideas about Cloud and Infrastructure automation."
+    btnName: "Get in Touch"
+    btnLink: "mailto:ramin.asgharian@hotmail.com"
+
+  footer:
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://www.linkedin.com/in/ramin-asgharian-47149523
+
+# --------------------------------------------------
+# پیکربندی زبان‌ها (انگلیسی و فارسی)
+# --------------------------------------------------
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
 
 languages:
-  # --------------------------------------------------
-  # ۱. نسخه انگلیسی (English)
-  # --------------------------------------------------
   en:
     languageName: "English"
     weight: 1
     contentDir: "content"
-    params:
-      hero:
-        enable: true
-        intro: "Hi, I am"
-        title: "Ramin Asgharian."
-        subtitle: "Cloud & Infrastructure Engineer"
-        content: "I focus on Cloud Platforms (AWS, Azure), Virtualization, Infrastructure Automation (Terraform, Ansible, Python), and Enterprise Backup Solutions."
-        image: /images/hero.svg
-        button:
-          enable: true
-          name: "Download Resume"
-          url: "#" # لینک فایل PDF رزومه‌ات را بعداً اینجا می‌گذاری
-
-      about:
-        enable: true
-        title: "About Me"
-        content: |-
-          I design, build, and automate IT infrastructure with a strong foundation in enterprise systems and networking. My focus centers on Cloud Platforms (AWS & Azure), Virtualization, and Infrastructure as Code (IaC).
-
-          Alongside hands-on engineering, I spent several years as a Technical Instructor teaching Microsoft, Cisco, and advanced networking courses—an experience that deepened my understanding of core systems and system architecture.
-        skills:
-          enable: true
-          title: "Core Technologies & Expertise:"
-          items:
-            - "Cloud (AWS, Azure)"
-            - "Terraform & Ansible"
-            - "Python Automation"
-            - "Virtualization (VMware, Nutanix)"
-            - "Backup & Disaster Recovery (Veeam)"
-            - "Enterprise Networking (Cisco, Microsoft)"
-            - "SAN & Data Center Infrastructure"
-
-      # بخش سوابق کاری به درخواست شما غیرفعال شد
-      experience:
-        enable: false
-
-      education:
-        enable: true
-        title: "Education"
-        items:
-          - title: "Master of Technology (M.Tech) in Computer Networks & Information Security"
-            school:
-              name: "Jawaharlal Nehru Technological University Hyderabad (JNTUH)"
-
-      achievements:
-        enable: true
-        title: "Research & Publications"
-        items:
-          - title: "A Challenge-based Social Network: The LEGIO Mobile Application"
-            content: "International Journal of Computer Science and Network (IJCSN) — 2017"
-          - title: "Do you share positive and negative life events on Facebook? Sharing and Privacy Concerns"
-            content: "Union of Iranian Knowledge & Information Science Student Association — 2015"
-          - title: "Secured Cryptography by Combination of One Time Pad Encryption & Cipher Block Chaining Mode"
-            content: "Khayam University — 2012"
-
-      contact:
-        enable: true
-        content: "Always open to technical discussions, consultations, or exchanging ideas about Cloud and Infrastructure automation."
-        btnName: "Get in Touch"
-        btnLink: "mailto:ramin.asgharian@hotmail.com"
-
-  # --------------------------------------------------
-  # ۲. نسخه فارسی (فارسی)
-  # --------------------------------------------------
+  
   fa:
     languageName: "فارسی"
     weight: 2
     contentDir: "content/fa"
     params:
       hero:
-        enable: true
         intro: "سلام، من"
         title: "رامین اصغریان هستم."
         subtitle: "مهندس کلاود و زیرساخت IT"
         content: "تمرکز من روی پلتفرم‌های ابری (AWS, Azure)، مجازی‌سازی، اتوماسیون زیرساخت (Terraform, Ansible, Python) و راهکارهای Backup و Disaster Recovery است."
-        image: /images/hero.svg
         button:
-          enable: true
           name: "دانلود رزومه"
-          url: "#"
-
       about:
-        enable: true
         title: "درباره من"
         content: |-
           من زیرساخت‌های IT را با تکیه بر مفاهیم پایه و عمیق شبکه و سرور طراحی و اتوماسیون می‌کنم. تمرکز اصلی من روی پلتفرم‌های ابری (AWS و Azure)، مجازی‌سازی و زیرساخت مبتنی بر کد (IaC) است.
 
-          در کنار کارهای اجرایی، سال‌ها به عنوان مدرس دوره‌های تخصصی شبکه (مایکروسافت و سیسکو) و مدرس دانشگاه فعالیت داشته‌ام؛ تجربه‌ای که دید عمیقی در تحلیل سیستم‌های بزرگ به من داده است.
+          در کنار کارهای اجرایی، سال‌ها به عنوان مدرس دوره‌های تخصصی شبکه (مایکروسافت و سیسکو) و مدرس دانشگاه فعالیت داشته‌ام.
         skills:
-          enable: true
           title: "تخصص‌های اصلی:"
           items:
             - "پلتفرم‌های ابری (AWS, Azure)"
@@ -113,21 +128,13 @@ languages:
             - "سیستم‌های پشتیبان‌گیری (Veeam Backup)"
             - "شبکه‌های سازمانی (Cisco, Microsoft)"
             - "زیرساخت دیتاسنتر و ذخیره‌سازی (SAN)"
-
-      # بخش سوابق کاری به درخواست شما غیرفعال شد
-      experience:
-        enable: false
-
       education:
-        enable: true
         title: "تحصیلات"
         items:
           - title: "کارشناسی ارشد مهندسی (M.Tech) شبکه و امنیت اطلاعات"
             school:
               name: "دانشگاه تکنولوژی جواهر لعل نهرو حیدرآباد (JNTUH)"
-
       achievements:
-        enable: true
         title: "مقالات و پژوهش‌های علمی"
         items:
           - title: "A Challenge-based Social Network: The LEGIO Mobile Application"
@@ -136,26 +143,7 @@ languages:
             content: "اتحادیه انجمن‌های علمی دانش‌شناسی ایران — ۲۰۱۵"
           - title: "Secured Cryptography by Combination of One Time Pad Encryption & Cipher Block Chaining Mode"
             content: "دانشگاه خیام — ۲۰۱۲"
-
       contact:
-        enable: true
         content: "خوشحال می‌شوم با هم در ارتباط باشیم و درباره تکنولوژی‌های کلاود و اتوماسیون گفتگو کنیم."
         btnName: "ارسال ایمیل"
         btnLink: "mailto:ramin.asgharian@hotmail.com"
-
-# تنظیمات عمومی هدر و منو
-params:
-  title: "Ramin Asgharian"
-  description: "Cloud & Infrastructure Engineer Portfolio"
-  favicon: "/fav.png"
-  navbar:
-    brandName: "Ramin Asgharian"
-    showBrandLogo: false
-    disableSearch: false
-    stickyNavBar:
-      enable: true
-
-  footer:
-    socialNetworks:
-      github: https://github.com/RaminAsgharian
-      linkedin: https://www.linkedin.com/in/ramin-asgharian-47149523
